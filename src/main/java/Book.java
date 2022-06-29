@@ -9,4 +9,8 @@ public class Book {
         NumberofPages = numberofPages;
     }
 
+    @Override
+    public String toString() {
+        return "Book [NumberofPages=" + NumberofPages + ", genre=" + genre + ", title=" + title + "]";
+    }
 }
